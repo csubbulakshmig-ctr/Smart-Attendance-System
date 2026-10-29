@@ -1,26 +1,28 @@
-# AIoT Smart Attendance System Using Face Recognition
+## Installation and Setup
 
-## Project Overview
-The Smart Attendance System is a Python-based project that automates attendance recording using face recognition. It uses a webcam to detect and recognize registered faces and records attendance in a spreadsheet.
-
-## Objectives
-- Automate the attendance process.
-- Recognize registered faces using computer vision.
-- Reduce manual attendance recording.
-- Store attendance records with date and time.
-
-## Technologies Used
-- Python
-- OpenCV
-- Face Recognition / LBPH (as implemented in the project)
-- CSV / Spreadsheet
+### Prerequisites
+- Python (a compatible version)
 - Visual Studio Code
+- Webcam
+- Required Python libraries listed in `requirements.txt`
 
-## Project Workflow
-1. Capture face images of registered users.
-2. Train the face recognition model.
-3. Detect and recognize faces using a camera.
-4. Mark attendance for recognized users.
+### Setup
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Install the required dependencies using:
+
+   `python -m pip install -r requirements.txt`
+
+4. Prepare the required face dataset and trained model files.
+5. Run the Python scripts in the correct order for your project.
+
+### Attendance Output
+The system records attendance for recognized faces and saves the results to the configured spreadsheet or CSV file.
+
+### Notes
+- The dataset and trained model may need to be created locally.
+- Do not upload personal face images or private attendance records to a public repository.
+- Python and library versions may affect compatibility.
 5. Save attendance records in a spreadsheet.
 
 ## Key Features
